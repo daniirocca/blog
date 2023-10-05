@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Meu blog - Dani Dev
+title: Meu blog 
 linkedin: https://linkedin.com/in/daniela-rocca
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Bem-vindo ao meu blog! Sou um iniciante apaixonada por programação e 
+  estou ansiosa para compartilhar minhas experiências e aprender com vocês. 
+  Vamos crescer juntos nessa emocionante jornada de descoberta tecnológica!
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://daniirocca.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
