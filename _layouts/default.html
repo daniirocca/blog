@@ -1,0 +1,35 @@
+---
+layout: default
+title: Meu blog
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+      <nav class="site-nav">
+        <a href="{{ site.baseurl }}/">Início</a>
+        <a href="{{ site.linkedin }}" target="_blank">LinkedIn</a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+      </nav>      
+    </div>
+  </header>
+
+  <main class="page-content wrapper">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer-full">
+    <p>© {{ site.time | date: '%Y' }} Daniela Rocca. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
+  </footer>
+</body>
+</html>

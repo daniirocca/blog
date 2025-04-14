@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <main class="page-content wrapper">
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p><small>{{ page.date | date: "%d/%m/%Y" }}</small></p>
+      {{ content }}
+    </article>
+  </main>
+
+  <footer class="site-footer-full">
+    <p>© {{ site.time | date: '%Y' }} Daniela Rocca. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
+  </footer>
+</body>
+</html>
